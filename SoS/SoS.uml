@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows">
   <uml:Model xmi:id="_njNXUDkWEeq9QJJQLLZM_A" name="SoS">
     <ownedComment xmi:type="uml:Comment" xmi:id="_poJGADykEeqttOmlBllrsQ">
       <body>Eddy Navarrete &#xD;
@@ -41,7 +41,7 @@
           <body>Juliana Mejía</body>
         </ownedComment>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_2oOC0DwwEeq9r43XwoIdDg" name="position_in" type="__b3NUDttEeqLqdbdR7J7TQ" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_K8-Vwj0_EeqC3MJr-A7mSQ" name="police vehicle" type="_Hsp5sD0tEeqC3MJr-A7mSQ" aggregation="composite" association="_K89usD0_EeqC3MJr-A7mSQ">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_K8-Vwj0_EeqC3MJr-A7mSQ" name="police vehicle" visibility="package" type="_Hsp5sD0tEeqC3MJr-A7mSQ" aggregation="composite" association="_K89usD0_EeqC3MJr-A7mSQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K8_j4D0_EeqC3MJr-A7mSQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K8_j4T0_EeqC3MJr-A7mSQ" value="*"/>
         </ownedAttribute>
@@ -89,7 +89,7 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_6LBxoD01EeqC3MJr-A7mSQ" name="imagesIncident" type="_Nf6XYDyhEeqttOmlBllrsQ"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_p6I2cD3MEeqC3MJr-A7mSQ" name="incidentImages_In" type="_Nf6XYDyhEeqttOmlBllrsQ" aggregation="composite"/>
         </nestedClassifier>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_Z8lN0D0tEeqC3MJr-A7mSQ" name="Police_TFT_Displayer">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Z8lN0D0tEeqC3MJr-A7mSQ" name="Police_TFT_Displayer" visibility="public">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_rnQGgD0yEeqC3MJr-A7mSQ" name="emergencyIncident" visibility="package" type="__b3NUDttEeqLqdbdR7J7TQ"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_dYclkD3OEeqC3MJr-A7mSQ" name="emergency_In" type="_eLXaUDycEeqttOmlBllrsQ" aggregation="composite"/>
         </nestedClassifier>
@@ -98,7 +98,7 @@
           <ownedAttribute xmi:type="uml:Port" xmi:id="_aou3AD3OEeqC3MJr-A7mSQ" name="coordinates_Out" type="_Xw6ikDygEeqttOmlBllrsQ" aggregation="composite"/>
         </nestedClassifier>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_K89usD0_EeqC3MJr-A7mSQ" memberEnd="_K8-Vwj0_EeqC3MJr-A7mSQ _K8_j4j0_EeqC3MJr-A7mSQ">
+      <packagedElement xmi:type="uml:Association" xmi:id="_K89usD0_EeqC3MJr-A7mSQ" visibility="package" memberEnd="_K8-Vwj0_EeqC3MJr-A7mSQ _K8_j4j0_EeqC3MJr-A7mSQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K8-VwD0_EeqC3MJr-A7mSQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K8-VwT0_EeqC3MJr-A7mSQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
@@ -149,9 +149,90 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_WtvDcDkgEeqtR9ldc2U3dA" name="Medical">
-      <packagedElement xmi:type="uml:Class" xmi:id="_CTC6MDkbEeq9QJJQLLZM_A" name="Medical">
+      <packagedElement xmi:type="uml:Class" xmi:id="_x1fsQEImEeqCZ6kkQrGOPA" name="Medical">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_tlooADwwEeq9r43XwoIdDg" name="position_in" type="__b3NUDttEeqLqdbdR7J7TQ" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_QeTQkDygEeqttOmlBllrsQ" name="emergencyInsident" type="__b3NUDttEeqLqdbdR7J7TQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QeTQkDygEeqttOmlBllrsQ" name="emergencyIncident" visibility="public" type="__b3NUDttEeqLqdbdR7J7TQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CyAJEELJEeqCZ6kkQrGOPA" name="medical vehicle" type="_pKpusEK4EeqCZ6kkQrGOPA" aggregation="composite" association="_Cx-T4ELJEeqCZ6kkQrGOPA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CyAwIULJEeqCZ6kkQrGOPA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3upT4kLJEeqCZ6kkQrGOPA" name="medical radio " type="_SVW8gEK5EeqCZ6kkQrGOPA" aggregation="composite" association="_3umQkELJEeqCZ6kkQrGOPA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3urJEELJEeqCZ6kkQrGOPA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_4gSMMkLJEeqCZ6kkQrGOPA" name="medical pc" type="_OOXR8EK5EeqCZ6kkQrGOPA" aggregation="composite" association="_4gQ-EELJEeqCZ6kkQrGOPA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4gSzQULJEeqCZ6kkQrGOPA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_OLpagELMEeqCZ6kkQrGOPA" name="radio signal" type="_HzVZIELCEeqCZ6kkQrGOPA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_0L9I4ELMEeqCZ6kkQrGOPA" name="emergency in" visibility="package" type="_eLXaUDycEeqttOmlBllrsQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="__nYDUELMEeqCZ6kkQrGOPA" name="incident images out" type="_Nf6XYDyhEeqttOmlBllrsQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_TankUELNEeqCZ6kkQrGOPA" name="coordinates in" type="_Xw6ikDygEeqttOmlBllrsQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Urf9YELNEeqCZ6kkQrGOPA" name="coordinates out" visibility="public" type="_Xw6ikDygEeqttOmlBllrsQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TgmwMELQEeqCZ6kkQrGOPA" name="Property15"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_pKpusEK4EeqCZ6kkQrGOPA" name="Medical Vehicle" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pKputEK4EeqCZ6kkQrGOPA" name="position_in" visibility="public" type="__b3NUDttEeqLqdbdR7J7TQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6PangkLJEeqCZ6kkQrGOPA" name="medical radio " type="_SVW8gEK5EeqCZ6kkQrGOPA" aggregation="composite" association="_6PZZYELJEeqCZ6kkQrGOPA"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_dmFksELLEeqCZ6kkQrGOPA" name="coordinates in" type="_Xw6ikDygEeqttOmlBllrsQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_EYVtYELMEeqCZ6kkQrGOPA" name="coordinates out" type="_Xw6ikDygEeqttOmlBllrsQ" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FuuRgELMEeqCZ6kkQrGOPA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FtrvsELMEeqCZ6kkQrGOPA" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_bNqfUELMEeqCZ6kkQrGOPA" name="radio signal" type="_HzVZIELCEeqCZ6kkQrGOPA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5stjEULJEeqCZ6kkQrGOPA" name="medical vehicle gps" type="_pyjcMEK4EeqCZ6kkQrGOPA" aggregation="composite" association="_5srt4ELJEeqCZ6kkQrGOPA"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_pyjcMEK4EeqCZ6kkQrGOPA" name="Medical Vehicle GPS" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pyjcNEK4EeqCZ6kkQrGOPA" name="own coordinates" visibility="public" type="_Xw6ikDygEeqttOmlBllrsQ"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_U_zrYELLEeqCZ6kkQrGOPA" name="coordinates out" type="_Xw6ikDygEeqttOmlBllrsQ" aggregation="composite"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_OOXR8EK5EeqCZ6kkQrGOPA" name="Medical PC">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OOXR8UK5EeqCZ6kkQrGOPA" visibility="public">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OOXR8kK5EeqCZ6kkQrGOPA" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OOXR80K5EeqCZ6kkQrGOPA" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OOXR9EK5EeqCZ6kkQrGOPA" name="position_in" visibility="public" type="__b3NUDttEeqLqdbdR7J7TQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fBL1QELBEeqCZ6kkQrGOPA" name="images of incident" type="_Nf6XYDyhEeqttOmlBllrsQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OMYwcELDEeqCZ6kkQrGOPA" name="emergency incident" type="__b3NUDttEeqLqdbdR7J7TQ"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_uEhQkELMEeqCZ6kkQrGOPA" name="incident images in" type="_Nf6XYDyhEeqttOmlBllrsQ" aggregation="composite"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_SVW8gEK5EeqCZ6kkQrGOPA" name="Medical Radio ">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SVW8gUK5EeqCZ6kkQrGOPA" visibility="public">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SVW8gkK5EeqCZ6kkQrGOPA" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SVW8g0K5EeqCZ6kkQrGOPA" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_o-2_UELBEeqCZ6kkQrGOPA" name="Radio Signal" type="_HzVZIELCEeqCZ6kkQrGOPA"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_xo62UELKEeqCZ6kkQrGOPA" name="radio signal" type="_HzVZIELCEeqCZ6kkQrGOPA" aggregation="composite">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HiRvQELLEeqCZ6kkQrGOPA"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HhLjEELLEeqCZ6kkQrGOPA" value="*"/>
+          </ownedAttribute>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Cx-T4ELJEeqCZ6kkQrGOPA" visibility="package" memberEnd="_CyAJEELJEeqCZ6kkQrGOPA _CyBXMELJEeqCZ6kkQrGOPA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cx_iAELJEeqCZ6kkQrGOPA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cx_iAULJEeqCZ6kkQrGOPA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_CyBXMELJEeqCZ6kkQrGOPA" type="_x1fsQEImEeqCZ6kkQrGOPA" association="_Cx-T4ELJEeqCZ6kkQrGOPA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3umQkELJEeqCZ6kkQrGOPA" visibility="package" memberEnd="_3upT4kLJEeqCZ6kkQrGOPA _3urJEULJEeqCZ6kkQrGOPA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3upT4ELJEeqCZ6kkQrGOPA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3upT4ULJEeqCZ6kkQrGOPA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3urJEULJEeqCZ6kkQrGOPA" type="_x1fsQEImEeqCZ6kkQrGOPA" association="_3umQkELJEeqCZ6kkQrGOPA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4gQ-EELJEeqCZ6kkQrGOPA" visibility="public" memberEnd="_4gSMMkLJEeqCZ6kkQrGOPA _4gUBYELJEeqCZ6kkQrGOPA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4gSMMELJEeqCZ6kkQrGOPA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4gSMMULJEeqCZ6kkQrGOPA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4gUBYELJEeqCZ6kkQrGOPA" type="_x1fsQEImEeqCZ6kkQrGOPA" association="_4gQ-EELJEeqCZ6kkQrGOPA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5srt4ELJEeqCZ6kkQrGOPA" memberEnd="_5stjEULJEeqCZ6kkQrGOPA _5svYQELJEeqCZ6kkQrGOPA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5ss8AELJEeqCZ6kkQrGOPA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5stjEELJEeqCZ6kkQrGOPA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5svYQELJEeqCZ6kkQrGOPA" type="_pKpusEK4EeqCZ6kkQrGOPA" association="_5srt4ELJEeqCZ6kkQrGOPA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_6PZZYELJEeqCZ6kkQrGOPA" memberEnd="_6PangkLJEeqCZ6kkQrGOPA _6PbOkkLJEeqCZ6kkQrGOPA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PangELJEeqCZ6kkQrGOPA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PangULJEeqCZ6kkQrGOPA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_6PbOkkLJEeqCZ6kkQrGOPA" type="_pKpusEK4EeqCZ6kkQrGOPA" association="_6PZZYELJEeqCZ6kkQrGOPA"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aPKi0DkgEeqtR9ldc2U3dA" name="Search Resuce">
@@ -185,12 +266,6 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_wy5V0TkdEeq9QJJQLLZM_A" type="_qx3EoDkWEeq9QJJQLLZM_A" association="_wy25kDkdEeq9QJJQLLZM_A"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_wJi20DkdEeq9QJJQLLZM_A" memberEnd="_wJksADkdEeq9QJJQLLZM_A _wJlTEjkdEeq9QJJQLLZM_A">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wJkE8DkdEeq9QJJQLLZM_A" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wJkE8TkdEeq9QJJQLLZM_A" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_wJlTEjkdEeq9QJJQLLZM_A" type="_qx3EoDkWEeq9QJJQLLZM_A" association="_wJi20DkdEeq9QJJQLLZM_A"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_vc7BYDkdEeq9QJJQLLZM_A" memberEnd="_vc8PgTkdEeq9QJJQLLZM_A _vc9doDkdEeq9QJJQLLZM_A">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vc7ocDkdEeq9QJJQLLZM_A" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vc8PgDkdEeq9QJJQLLZM_A" key="nature" value="UML_Nature"/>
@@ -214,7 +289,6 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_qx3EoDkWEeq9QJJQLLZM_A" name="SoS">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_utvAITkdEeq9QJJQLLZM_A" name="ecall" type="_vj20ADkWEeq9QJJQLLZM_A" aggregation="composite" association="_uttyADkdEeq9QJJQLLZM_A"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_vc8PgTkdEeq9QJJQLLZM_A" name="police" type="_9ow8YDkaEeq9QJJQLLZM_A" aggregation="shared" association="_vc7BYDkdEeq9QJJQLLZM_A"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_wJksADkdEeq9QJJQLLZM_A" name="medical" type="_CTC6MDkbEeq9QJJQLLZM_A" aggregation="shared" association="_wJi20DkdEeq9QJJQLLZM_A"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_wy4HsjkdEeq9QJJQLLZM_A" name="car" type="_Gard8DkbEeq9QJJQLLZM_A" aggregation="shared" association="_wy25kDkdEeq9QJJQLLZM_A"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_xZYuEDkdEeq9QJJQLLZM_A" name="car crane" type="_I4dvADkbEeq9QJJQLLZM_A" aggregation="shared" association="_xZW44DkdEeq9QJJQLLZM_A"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_y4SVATkdEeq9QJJQLLZM_A" name="fire fight" type="_et--4DkdEeq9QJJQLLZM_A" aggregation="shared" association="_y4PRsDkdEeq9QJJQLLZM_A"/>
@@ -227,10 +301,6 @@
         <ownedConnector xmi:type="uml:Connector" xmi:id="_FWW1wDwyEeq9r43XwoIdDg" name="send_position_car">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_FWYD4DwyEeq9r43XwoIdDg" partWithPort="_wy4HsjkdEeq9QJJQLLZM_A" role="_g--CcDwwEeq9r43XwoIdDg"/>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_FWYq8DwyEeq9r43XwoIdDg" partWithPort="_utvAITkdEeq9QJJQLLZM_A" role="_PqVR4DwwEeq9r43XwoIdDg"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_OS56ADwyEeq9r43XwoIdDg" name="send_position_medical">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_OS6hEDwyEeq9r43XwoIdDg" partWithPort="_wJksADkdEeq9QJJQLLZM_A" role="_tlooADwwEeq9r43XwoIdDg"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_OS6hETwyEeq9r43XwoIdDg" partWithPort="_utvAITkdEeq9QJJQLLZM_A" role="_PqVR4DwwEeq9r43XwoIdDg"/>
         </ownedConnector>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_R5rzcDwyEeq9r43XwoIdDg" name="send_position_SR">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_R5sagDwyEeq9r43XwoIdDg" partWithPort="_Svl8cTksEeqtR9ldc2U3dA" role="_ZuuvADwwEeq9r43XwoIdDg"/>
@@ -304,6 +374,7 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_16WT8DyjEeqttOmlBllrsQ" name="state_vehicle" type="_rKIkkDyhEeqttOmlBllrsQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__hqo8DyiEeqttOmlBllrsQ" name="placa"/>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_HzVZIELCEeqCZ6kkQrGOPA" name="audio signal"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nl3pwDkWEeq9QJJQLLZM_A">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nl8iQDkWEeq9QJJQLLZM_A" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -376,7 +447,6 @@
   <Blocks:Block xmi:id="_vj-IwDkWEeq9QJJQLLZM_A" base_Class="_vj20ADkWEeq9QJJQLLZM_A"/>
   <Blocks:Block xmi:id="_9o3qEDkaEeq9QJJQLLZM_A" base_Class="_9ow8YDkaEeq9QJJQLLZM_A"/>
   <Blocks:Block xmi:id="__ipPIDkaEeq9QJJQLLZM_A" base_Class="__ijIgDkaEeq9QJJQLLZM_A"/>
-  <Blocks:Block xmi:id="_CTJn4DkbEeq9QJJQLLZM_A" base_Class="_CTC6MDkbEeq9QJJQLLZM_A"/>
   <Blocks:Block xmi:id="_Gaw9gDkbEeq9QJJQLLZM_A" base_Class="_Gard8DkbEeq9QJJQLLZM_A"/>
   <Blocks:Block xmi:id="_I4ingDkbEeq9QJJQLLZM_A" base_Class="_I4dvADkbEeq9QJJQLLZM_A"/>
   <Blocks:Block xmi:id="_zi2xcDkcEeq9QJJQLLZM_A" base_Class="_zizuIDkcEeq9QJJQLLZM_A"/>
@@ -393,8 +463,6 @@
   <Blocks:NestedConnectorEnd xmi:id="_6uTR8DwxEeq9r43XwoIdDg" base_Element="_6uRcwDwxEeq9r43XwoIdDg" propertyPath="_utvAITkdEeq9QJJQLLZM_A" base_ConnectorEnd="_6uRcwDwxEeq9r43XwoIdDg"/>
   <Blocks:NestedConnectorEnd xmi:id="_FWYq8TwyEeq9r43XwoIdDg" base_Element="_FWYD4DwyEeq9r43XwoIdDg" propertyPath="_wy4HsjkdEeq9QJJQLLZM_A" base_ConnectorEnd="_FWYD4DwyEeq9r43XwoIdDg"/>
   <Blocks:NestedConnectorEnd xmi:id="_FWZSADwyEeq9r43XwoIdDg" base_Element="_FWYq8DwyEeq9r43XwoIdDg" propertyPath="_utvAITkdEeq9QJJQLLZM_A" base_ConnectorEnd="_FWYq8DwyEeq9r43XwoIdDg"/>
-  <Blocks:NestedConnectorEnd xmi:id="_OS6hEjwyEeq9r43XwoIdDg" base_Element="_OS6hEDwyEeq9r43XwoIdDg" propertyPath="_wJksADkdEeq9QJJQLLZM_A" base_ConnectorEnd="_OS6hEDwyEeq9r43XwoIdDg"/>
-  <Blocks:NestedConnectorEnd xmi:id="_OS7IIDwyEeq9r43XwoIdDg" base_Element="_OS6hETwyEeq9r43XwoIdDg" propertyPath="_utvAITkdEeq9QJJQLLZM_A" base_ConnectorEnd="_OS6hETwyEeq9r43XwoIdDg"/>
   <Blocks:NestedConnectorEnd xmi:id="_R5tBkDwyEeq9r43XwoIdDg" base_Element="_R5sagDwyEeq9r43XwoIdDg" propertyPath="_Svl8cTksEeqtR9ldc2U3dA" base_ConnectorEnd="_R5sagDwyEeq9r43XwoIdDg"/>
   <Blocks:NestedConnectorEnd xmi:id="_R5tooDwyEeq9r43XwoIdDg" base_Element="_R5sagTwyEeq9r43XwoIdDg" propertyPath="_utvAITkdEeq9QJJQLLZM_A" base_ConnectorEnd="_R5sagTwyEeq9r43XwoIdDg"/>
   <Blocks:NestedConnectorEnd xmi:id="_VN2S4TwyEeq9r43XwoIdDg" base_Element="_VN1r0TwyEeq9r43XwoIdDg" propertyPath="_y4SVATkdEeq9QJJQLLZM_A" base_ConnectorEnd="_VN1r0TwyEeq9r43XwoIdDg"/>
@@ -428,4 +496,24 @@
   <Blocks:NestedConnectorEnd xmi:id="_wg6Owj3PEeqC3MJr-A7mSQ" base_Element="_wg6OwT3PEeqC3MJr-A7mSQ" propertyPath="_K8-Vwj0_EeqC3MJr-A7mSQ" base_ConnectorEnd="_wg6OwT3PEeqC3MJr-A7mSQ"/>
   <Blocks:NestedConnectorEnd xmi:id="_W59iYj3SEeqC3MJr-A7mSQ" base_Element="_W59iYD3SEeqC3MJr-A7mSQ" propertyPath="_OaMDgD0_EeqC3MJr-A7mSQ" base_ConnectorEnd="_W59iYD3SEeqC3MJr-A7mSQ"/>
   <Blocks:BindingConnector xmi:id="_W5-JcD3SEeqC3MJr-A7mSQ" base_Connector="_W56fED3SEeqC3MJr-A7mSQ"/>
+  <Blocks:Block xmi:id="_x1r5gEImEeqCZ6kkQrGOPA" base_Class="_x1fsQEImEeqCZ6kkQrGOPA"/>
+  <Blocks:Block xmi:id="_pKunMEK4EeqCZ6kkQrGOPA" base_Class="_pKpusEK4EeqCZ6kkQrGOPA"/>
+  <Blocks:Block xmi:id="_pyntoEK4EeqCZ6kkQrGOPA" base_Class="_pyjcMEK4EeqCZ6kkQrGOPA"/>
+  <Blocks:Block xmi:id="_OOa8UEK5EeqCZ6kkQrGOPA" base_Class="_OOXR8EK5EeqCZ6kkQrGOPA"/>
+  <Blocks:Block xmi:id="_SVam4EK5EeqCZ6kkQrGOPA" base_Class="_SVW8gEK5EeqCZ6kkQrGOPA"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_zshfEELFEeqCZ6kkQrGOPA" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <PortsAndFlows:FullPort xmi:id="_xpBkAELKEeqCZ6kkQrGOPA" base_Port="_xo62UELKEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_U_5K8ELLEeqCZ6kkQrGOPA" base_Port="_U_zrYELLEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_dmKdMELLEeqCZ6kkQrGOPA" base_Port="_dmFksELLEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_iN1L4ELLEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_l6RBYELLEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_EYoBQELMEeqCZ6kkQrGOPA" base_Port="_EYVtYELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_OLuTAELMEeqCZ6kkQrGOPA" base_Port="_OLpagELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_bNx0EELMEeqCZ6kkQrGOPA" base_Port="_bNqfUELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_uEmJEELMEeqCZ6kkQrGOPA" base_Port="_uEhQkELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_0MPcwELMEeqCZ6kkQrGOPA" base_Port="_0L9I4ELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_35gYsELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="__nuBkELMEeqCZ6kkQrGOPA" base_Port="__nYDUELMEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_Ta7GUELNEeqCZ6kkQrGOPA" base_Port="_TankUELNEeqCZ6kkQrGOPA"/>
+  <PortsAndFlows:FullPort xmi:id="_Urlc8ELNEeqCZ6kkQrGOPA" base_Port="_Urf9YELNEeqCZ6kkQrGOPA"/>
 </xmi:XMI>
